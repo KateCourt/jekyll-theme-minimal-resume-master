@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import MailOutlineIcon from '@mui/icons-material/MailOutline'
 import DraftsIcon from '@mui/icons-material/Drafts'
 import NotesIcon from '@mui/icons-material/Notes'
@@ -8,7 +8,6 @@ const Contact = () => {
   const iconClass =
     'transition duration-300 ease-in-out transform group-hover:scale-110'
   const [activeIcon, setActiveIcon] = useState(0)
-  const [sendAnimation, setSendAnimation] = useState(false)
 
   const handleMailTo = () => {
     window.location.href = `mailto:info@orqa.uk?subject=Contact&body=Hello&unique=${Date.now()}`
@@ -33,9 +32,7 @@ const Contact = () => {
       setActiveIcon((currentIcon) => {
         const nextIndex = (currentIcon + 1) % icons.length
         if (nextIndex === 4) {
-          setSendAnimation(true)
           setTimeout(() => {
-            setSendAnimation(false)
             setActiveIcon(0)
           }, 2000)
         }

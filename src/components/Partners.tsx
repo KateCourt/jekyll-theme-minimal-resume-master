@@ -66,7 +66,7 @@ const Partners = () => {
         </p>
       </div>
       <div className="flex justify-between xl:space-x-24 mx-12 sm:mx-8 flex-col lg:flex-row lg:mx-12 xl:mx-24 2xl:mx-auto px-2 sm:px-4">
-        {logos.map((logo, index) => (
+        {logos.map((_, index) => (
           <div
             key={index}
             className="flex flex-col text-center rounded-lg p-2 md:p-8 space-y-2 lg:space-y-4 text-black dark:text-white"></div>
