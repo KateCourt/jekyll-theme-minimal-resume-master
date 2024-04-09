@@ -1,4 +1,5 @@
 # OrQA Website
+
 Information website for the OrQA project.
 
 ## About
@@ -6,7 +7,7 @@ Information website for the OrQA project.
 Transplantation is the best treatment for patients with organ failure irrespective of the organ required. Currently over 6,000
 patients are waiting in the United Kingdom. Focusing on kidney transplantation the figures are stark with a patient living twice
 as long with a transplant, when compared with dialysis, and over ten years a kidney transplant saves the NHS £420,000 per
-patient.    
+patient.
 
 Organs donated for transplantation are sometimes not used because of concerns about infections or cancer, but most
 commonly because of worries that they won’t function adequately in the recipient and might lead directly to the patient dying. At
@@ -17,56 +18,40 @@ to use the achievable 70% of donated organs.
 This project will involve training machine learning models to score the quality of organs being considered for transplantation.
 
 ### Project Team
-Colin Wilson, Newcastle upon Tyne Hospitals NHS Foundation Trust  ([colin.wilson6@nhs.net](mailto:colin.wilson6@nhs.net))    
+
+Colin Wilson, Newcastle upon Tyne Hospitals NHS Foundation Trust ([colin.wilson6@nhs.net](mailto:colin.wilson6@nhs.net))  
 Hassan Ugail, University of Bradford
 
 ### RSE Contact
+
 Frances Turner
 RSE Team  
 Newcastle University  
-([frances.hutchings@newcastle.ac.uk](mailto:frances.hutchings@newcastle.ac.uk)) 
+([frances.hutchings@newcastle.ac.uk](mailto:frances.hutchings@newcastle.ac.uk))
 
 ## Built With
 
-This project uses GitHub Pages.
+This project uses React
 
 ## Getting Started
 
 ### Prerequisites
-This site requires Ruby and Jekyll to run locally. [Jekyll quickstart docs](https://jekyllrb.com/docs/)
+
+Requires node 18.18.0 or above to run.
 
 ### Installation
 
-First install Ruby as Jekyll is a Gemfile. 
-[Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+Clone and open the repo.
 
-Then install the bundler package.
+Install packages
 
-
-```gem install jekyll bundler```
-
-Next initialise bundler. This writes a gemfile (if needed).
-
-
-```bundle init```
-
-Add the Jeykll gem.
-
-```bundle add jekyll```
-
-NB: on linux at least, after installing ruby and the bundler package as above, you then need to:
-
-install missing gem executables (these seem to be based on the gem file which is present in this code)
-```bundle install ```
-(NB: on a fresh linux such as vm, need make, npm and node. Also needed ubuntu-dev-tools and build-essential.) Also, issue with the snap install of ruby, seems it is better to use the apt install. 
-
-NB need to add jekyll-paginate,jekyll-sitemap,jekyll-gist,jekyll-feed and jekyll-include-cache to gemfile.
+`npm i`
 
 ### Running Locally
 
 Run the webserver at: locahost:4000
 
-```bundle exec jekyll serve```  
+`npm run dev`
 
 ## Deployment
 
@@ -80,20 +65,23 @@ http://info.orqa.uk/
 
 ## Roadmap
 
-- [x] Initial Research  
-- [x] Minimum viable product 
-- [ ] Alpha Release  
-- [ ] Feature-Complete Release  
+- [x] Initial Research
+- [x] Minimum viable product
+- [ ] Alpha Release
+- [ ] Feature-Complete Release
 
 ## Contributing
 
 ### Main Branch
+
 Protected and can only be pushed to via pull requests. Should be considered stable and a representation of production code.
 
 ### Dev Branch
+
 Should be considered fragile, code should compile and run but features may be prone to errors.
 
 ### Feature Branches
+
 A branch per feature being worked on.
 
 https://nvie.com/posts/a-successful-git-branching-model/
@@ -113,13 +101,6 @@ Please cite the associated papers for this work if you use this code:
 }
 ```
 
-
 ## Acknowledgements
+
 This work was funded by a grant from the UK Research Councils, EPSRC grant ref. EP/L012345/1, “Example project title, please update”.
-
-
-
-
-
-
-
