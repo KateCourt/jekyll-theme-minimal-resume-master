@@ -13,7 +13,7 @@ export default function SignUp() {
           credited on resulting publications.
         </p>
         <a
-          href="https://transplant.orqa.uk/register"
+          href="https://transplant-dev.orqa.uk/register"
           target="_blank"
           className="flex self-center w-1/4 text-md justify-center rounded-md bg-teal-500 px-4 py-2 md:text-lg font-semibold text-white shadow hover:bg-teal-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition duration-300 ease-in-out">
           Sign Up
@@ -21,9 +21,9 @@ export default function SignUp() {
         <p className="text-xs md:text-sm text-gray-900 dark:text-gray-300">
           We care about your data. Read our{' '}
           <a
-            href="/privacy-policy"
+            href="https://www.ncl.ac.uk/data-protection/"
             className="font-semibold text-teal-500 hover:text-black dark:hover:text-white">
-            privacy policy
+            data protection policy
           </a>
           .
         </p>
